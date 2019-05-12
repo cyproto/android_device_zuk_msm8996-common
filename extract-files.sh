@@ -80,11 +80,6 @@ function blob_fixup() {
         sed -i "s|/firmware/image|/vendor/f/image|g" "${2}"
         ;;
 
-    # Hex edit /bt_firmware to /vendor/btfw to delete the outdated rootdir symlinks
-    vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so)
-        sed -i "s|/bt_firmware|/vendor/btfw|g" "${2}"
-        ;;
-
     # Hex edit libaudcal.so to store acdbdata in new paths
     vendor/lib/libaudcal.so | vendor/lib64/libaudcal.so)
         sed -i "s|/data/vendor/misc/audio/acdbdata/delta/|/data/vendor/audio/acdbdata/delta/\x00\x00\x00\x00\x00|g" "${2}"
