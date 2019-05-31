@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2016 CarbonROM
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- HW Keys customization -->
+    <string name="z2_button_hw_title">U-Touch</string>
+    <string name="z2_button_hw_summary">Configure U-Touch</string>
+    <string name="z2_hardware_keys_home_single_press_summary">Set single press action</string>
+    <string name="z2_hardware_keys_home_long_press_summary">Set long press action</string>
+    <string name="z2_hardware_keys_home_double_press_summary">Set double press action</string>
+    <string name="z2_hardware_keys_home_single_press_title">Single press action</string>
+    <string name="z2_hardware_keys_home_long_press_title">Long press action</string>
+    <string name="z2_hardware_keys_home_double_press_title">Double press action</string>
+    <string name="z2_hardware_keys_left_swipe_summary">Set left swipe action</string>
+    <string name="z2_hardware_keys_right_swipe_summary">Set right swipe action</string>
+    <string name="z2_hardware_keys_left_swipe_title">Left Swipe action</string>
+    <string name="z2_hardware_keys_right_swipe_title">Right swipe action</string>
+    <string name="z2_hardware_keys_assist_summary">Set long tap action</string>
+    <string name="z2_hardware_keys_assist_title">Long tap action</string>
+	
+</resources>
